@@ -1,9 +1,29 @@
-.container{
-  width:95%;
-  max-width: 75em; /* 1200 / 16 */
-  margin:0 auto;
-  
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
 }
+img,video{
+  width: auto; 
+  max-width: 100%; 
+  height: auto;
+}
+
+body{
+  font-size: 100%;
+  font-family: sans-serif;
+  font-height: 1.5;
+}
+p{
+  margin-bottom: 10%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: serif;
+  font-weight: 900;
+
+}
+
 h1
 {
   background-color: #ffc888;
@@ -11,6 +31,16 @@ h1
 h2
 {
   background-color: #bbbfff;
+}
+
+
+
+
+.container{
+  width:95%;
+  max-width: 75em; /* 1200 / 16 */
+  margin:0 auto;
+  
 }
 /*mobile side nav color*/
 #main_nav{
@@ -103,3 +133,8 @@ h2
 footer{
   background-color: #ffc888;
 }
+
+footer .date-time, footer .location{
+  font-size: 0.9em;
+}
+

@@ -1,0 +1,131 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+img,video{
+  width: auto; 
+  max-width: 100%; 
+  height: auto;
+}
+
+body{
+  
+}
+.box{
+  border:1px solid #555;
+  padding: 0em; /* 10/16 */
+  margin-bottom: 1.25em;/*20 /16 */
+  background-color: #fffccc;
+  width: 40%;
+}
+.container{
+  width:95%;
+  max-width: 75em; /* 1200 / 16 */
+  margin:0 auto;
+ } 
+
+#fine {
+
+}
+
+
+h1
+{
+  background-color: #ffc888;
+}
+h2
+{
+  background-color: #bbbfff;
+}
+/*mobile side nav color*/
+#main_nav{
+  clear:both;
+  background-color: #ffc888;
+}  
+
+#main_nav ul{
+  list-style: none;
+}
+
+#main_nav li a{
+  display:block;
+  color:#fff;
+  background-color: #bbbddd;
+  text-transform: uppercase;
+  padding: 0.625em; /* 10/16 */
+  text-decoration:none;
+  border-bottom: 1px solid #eee;
+  font-weight:900;
+}
+/* top menu hover colors */
+#main_nav li a:hover{
+  color:#000;
+  background-color: #ffc888;
+}
+  
+#main_nav li a:active{
+  color:#555;
+  background-color: #f90;
+}  
+
+/* menu button */
+.menu a{
+  padding:0.5em 0.625em; /*10/16 */
+  background-color: #555;
+  border-radius:5px;
+  color: #fff;
+  text-decoration:none;
+}
+
+.menu a:hover{
+  color:#555;
+  background-color: #f90;
+}
+ 
+.menu{
+  margin-bottom:1em;
+}
+
+
+@media only screen and (min-width:42.75em) {
+	/* hide the menu button */
+  .menu{
+	  display:none;
+  }
+  
+/* move main_nav to top of the screen */
+  #main_nav{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+   overflow:hidden;
+    background-color: #bbbddd;
+  }
+  
+  #main_nav li{
+    display:inline;
+    line-height:1em;
+  }
+  #main_nav li a{
+    float:left;
+    padding: 0.9375em; /* 10/16  and  15/16 */
+    border-bottom: none;
+  }
+  
+/* hide the link to top in the nav */
+  #main_nav li a.top{
+    display: none;
+  }
+  
+ /* move the rest of the page down accordingly */
+  .container{
+   margin-top: 3.75em;  /*60 / 16 */ 
+  }
+    
+} /* end min-width:30.0625em */
+
+footer{
+  background-color: #ffc888;
+}
