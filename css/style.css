@@ -32,8 +32,12 @@ h2
 {
   background-color: #bbbfff;
 }
-
-
+header{
+  color:#fff;
+  background-color: #f04;
+  font-size: 1.9em;
+  padding-bottom: 2%;
+}
 
 
 .container{

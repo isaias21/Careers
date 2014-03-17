@@ -10,10 +10,19 @@ img,video{
 }
 
 body{
-  
+  font-size: 100%;
+  font-family: sans-serif;
+  font-height: 1.5;
+}
+p{
+  margin-bottom: 10%;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: serif;
+  font-weight: 900;
 
+}
 
 h1
 {
@@ -22,6 +31,19 @@ h1
 h2
 {
   background-color: #bbbfff;
+}
+header{
+  color:#fff;
+  background-color: #f04;
+  font-size: 1.9em;
+  padding-bottom: 2%;
+}
+h4{
+  background-color: #BEF700;
+  margin-bottom: 5%;
+}
+h5{
+  background-color: #;
 }
 
 
@@ -82,9 +104,9 @@ h2
 
 
 @media only screen and (min-width:42.75em) {
-	/* hide the menu button */
+  /* hide the menu button */
   .menu{
-	  display:none;
+    display:none;
   }
   
 /* move main_nav to top of the screen */
@@ -122,4 +144,9 @@ h2
 footer{
   background-color: #ffc888;
 }
-testing
+
+footer
+
+
+
+#schedule #main_nav:;
