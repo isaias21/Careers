@@ -36,7 +36,13 @@ header{
   color:#fff;
   background-color: #f04;
   font-size: 1.9em;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
+}
+.titlepage{
+  color:#fff;
+  background-color: #f04;
+  font-size: 1.9em;
+  padding-bottom: 3%;
 }
 h4{
   background-color: #BEF700;
