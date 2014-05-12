@@ -6,9 +6,29 @@ Index Page (homepage)
 
 
 //layout
-#home{
+#index{
 
 	// default layout  =============================================
+header{
+  color:#fff;
+  background-color: #f04;
+  font-size: 1.9em;
+  padding-bottom: 3%;
+}
+.titlepage{
+  color:#fff;
+  background-color: #f04;
+  font-size: 1.9em;
+  padding-bottom: 3%;
+}
+.kai{
+  float:left;
+  padding-right: 2%;
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+
 
 	.featuredSpeakers{
 		/*compass clearfix */

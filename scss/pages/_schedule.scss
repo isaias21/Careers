@@ -6,3 +6,72 @@ Schedule Page
 
 
 
+
+//layout
+#schedule{
+
+	// default layout =============================================
+.creative{
+  background-color: #81DAF5;
+}
+.fine{
+  background-color: #fc5;
+}
+.performing{
+  background-color: #BEF781;
+}
+.media{
+  background-color: #fe4;
+}
+    
+    
+	//x-small =============================================
+	@include breakpoint(x-small){
+		background-color: violet;
+
+	}//end x-small breakpoint
+
+
+
+	//small =============================================
+	@include breakpoint(small){
+		background-color: red;
+		
+	}//end small breakpoint
+
+
+
+	//medium breakpoint =============================================
+	@include breakpoint(medium){
+		background-color: green;
+
+	}// end medium breakpoint
+
+
+
+	//large breakpoint =============================================
+	@include breakpoint(large){
+		background-color: yellow;
+
+	}//end large breakpoint
+
+
+
+	//x-large breakkpoint  =============================================
+	@include breakpoint(x-large){
+		background-color: blue;
+		color: white;
+
+	}//end xlarge breakpoint
+
+
+	//xx-large breakpoint  =============================================
+	@include breakpoint(xx-large){
+		background-color: orange;
+
+	}//end xxlarge breakpoint
+}//end #schedule
+
+
+
+

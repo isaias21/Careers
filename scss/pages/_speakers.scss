@@ -3,3 +3,77 @@
 Speakers Page 
 ========================== 
 */
+
+
+//layout
+#speakers{
+
+	// default layout =============================================
+
+h4{
+  background-color: #BEF700;
+  margin-bottom: 5%;
+}
+
+
+.s1{
+  float:left;
+  padding-right: 2%;
+  padding-top: 6%;
+  padding-bottom: 2%;
+  height:35%;
+  width:35%;
+}
+
+
+    
+	//x-small =============================================
+	@include breakpoint(x-small){
+		background-color: violet;
+
+	}//end x-small breakpoint
+
+
+
+	//small =============================================
+	@include breakpoint(small){
+		background-color: red;
+		
+	}//end small breakpoint
+
+
+
+	//medium breakpoint =============================================
+	@include breakpoint(medium){
+		background-color: green;
+
+	}// end medium breakpoint
+
+
+
+	//large breakpoint =============================================
+	@include breakpoint(large){
+		background-color: yellow;
+
+	}//end large breakpoint
+
+
+
+	//x-large breakkpoint  =============================================
+	@include breakpoint(x-large){
+		background-color: blue;
+		color: white;
+
+	}//end xlarge breakpoint
+
+
+	//xx-large breakpoint  =============================================
+	@include breakpoint(xx-large){
+		background-color: orange;
+
+	}//end xxlarge breakpoint
+}//end #schedule
+
+
+
+

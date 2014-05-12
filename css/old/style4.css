@@ -44,12 +44,11 @@ header{
   font-size: 1.9em;
   padding-bottom: 3%;
 }
-.kai{
-  float:left;
-  padding-right: 2%;
-  padding-top: 6%;
-  padding-bottom: 2%;
+h4{
+  background-color: #BEF700;
+  margin-bottom: 5%;
 }
+
 
 
 .container{
@@ -155,5 +154,3 @@ footer
 
 
 #schedule #main_nav:;
-
-testing

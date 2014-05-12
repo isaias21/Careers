@@ -4,3 +4,80 @@ Videos Page
 ========================== 
 */
 
+
+
+//layout
+#videos{
+
+	// default layout =============================================
+.videoWrapper {
+		    position: relative;
+		    padding-bottom: 56.25%; /* 16:9 */
+		    /* if your video is 4:3 ratio then use the padding-bottom below:*/
+		    /*padding-bottom: 75%;*/ /* 4:3 */
+		  
+		    padding-top: 25px; /* may need to adjust depending on the size of the player controls of the service you use */
+		    height: 0;
+		}
+		.videoWrapper iframe {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		}
+    
+	//x-small =============================================
+	@include breakpoint(x-small){
+		background-color: violet;
+
+	}//end x-small breakpoint
+
+
+
+	//small =============================================
+	@include breakpoint(small){
+		background-color: red;
+		.video{
+			@include col(1,2);
+		}
+	}//end small breakpoint
+
+
+
+	//medium breakpoint =============================================
+	@include breakpoint(medium){
+		background-color: green;
+
+	}// end medium breakpoint
+
+
+
+	//large breakpoint =============================================
+	@include breakpoint(large){
+		background-color: yellow;
+.video{
+			@include col(1,3);
+		}
+	}//end large breakpoint
+
+
+
+	//x-large breakkpoint  =============================================
+	@include breakpoint(x-large){
+		background-color: blue;
+		color: white;
+
+	}//end xlarge breakpoint
+
+
+	//xx-large breakpoint  =============================================
+	@include breakpoint(xx-large){
+		background-color: orange;
+
+	}//end xxlarge breakpoint
+}//end #schedule
+
+
+
+
