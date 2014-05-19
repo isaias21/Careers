@@ -588,98 +588,92 @@ Index Page (homepage)
 ========================== 
 */
 /* line 12, ../scss/pages/_index.scss */
-#index header {
+#home header {
   color: #fff;
   background-color: #f04;
   font-size: 1.9em;
   padding-bottom: 3%;
 }
 /* line 18, ../scss/pages/_index.scss */
-#index .titlepage {
+#home .titlepage {
   color: #fff;
   background-color: #f04;
   font-size: 1.9em;
   padding-bottom: 3%;
 }
 /* line 24, ../scss/pages/_index.scss */
-#index .kai {
+#home .kai {
   float: left;
   padding-right: 2%;
   padding-top: 6%;
   padding-bottom: 2%;
 }
-/* line 33, ../scss/pages/_index.scss */
-#index .featuredSpeakers {
+/* line 30, ../scss/pages/_index.scss */
+#home .box {
+  margin-bottom: 2%;
+}
+/* line 35, ../scss/pages/_index.scss */
+#home .featuredSpeakers {
   /*compass clearfix */
   *zoom: 1;
   margin-bottom: 30px;
 }
 /* line 38, ../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-#index .featuredSpeakers:after {
+#home .featuredSpeakers:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 43, ../scss/pages/_index.scss */
-#index .introduction {
+/* line 45, ../scss/pages/_index.scss */
+#home .introduction {
   width: 100%;
   padding: 0 15px;
   float: left;
   font-size: 1.3em;
 }
-/* line 48, ../scss/pages/_index.scss */
-#index .speaker {
-  width: 50%;
+/* line 50, ../scss/pages/_index.scss */
+#home .speaker {
+  width: 100%;
   padding: 0 15px;
   float: left;
 }
-/* line 52, ../scss/pages/_index.scss */
-#index .date {
-  width: 41.66667%;
+/* line 54, ../scss/pages/_index.scss */
+#home .date {
+  width: 100%;
   padding: 0 15px;
   float: left;
   font-size: 1.2em;
 }
-/* line 57, ../scss/pages/_index.scss */
-#index .location {
-  width: 58.33333%;
+/* line 59, ../scss/pages/_index.scss */
+#home .location {
+  width: 100%;
   padding: 0 15px;
   float: left;
 }
-/* line 61, ../scss/pages/_index.scss */
-#index .track {
+/* line 63, ../scss/pages/_index.scss */
+#home .track {
   width: 100%;
   padding: 0 15px;
   float: left;
 }
 @media only screen and (min-width: 30em) {
   /* line 9, ../scss/pages/_index.scss */
-  #index {
+  #home {
     background-color: violet;
   }
 }
 @media only screen and (min-width: 40em) {
   /* line 9, ../scss/pages/_index.scss */
-  #index {
+  #home {
     background-color: red;
   }
-  /* line 85, ../scss/pages/_index.scss */
-  #index .speaker img {
-    width: 50%;
-    float: right;
-  }
-  /* line 89, ../scss/pages/_index.scss */
-  #index .speaker h3 {
-    width: 50%;
-    float: left;
-  }
   /* line 93, ../scss/pages/_index.scss */
-  #index .speaker {
+  #home .speaker {
     *zoom: 1;
     margin-bottom: 30px;
   }
   /* line 38, ../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  #index .speaker:after {
+  #home .speaker:after {
     content: "";
     display: table;
     clear: both;
@@ -687,37 +681,37 @@ Index Page (homepage)
 }
 @media only screen and (min-width: 50em) {
   /* line 9, ../scss/pages/_index.scss */
-  #index {
+  #home {
     background-color: green;
   }
   /* line 106, ../scss/pages/_index.scss */
-  #index .speaker {
+  #home .speaker {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
   /* line 108, ../scss/pages/_index.scss */
-  #index .speaker img {
+  #home .speaker img {
     width: 100%;
     padding: 0;
     float: none;
   }
   /* line 50, ../scss/_mixins.scss */
-  #index .speaker img:last-of-type {
+  #home .speaker img:last-of-type {
     float: right;
   }
   /* line 111, ../scss/pages/_index.scss */
-  #index .speaker h3 {
+  #home .speaker h3 {
     width: 100%;
     padding: 0;
     float: none;
   }
   /* line 50, ../scss/_mixins.scss */
-  #index .speaker h3:last-of-type {
+  #home .speaker h3:last-of-type {
     float: right;
   }
   /* line 116, ../scss/pages/_index.scss */
-  #index .track {
+  #home .track {
     width: 50%;
     padding: 0 15px;
     float: left;
@@ -725,42 +719,42 @@ Index Page (homepage)
 }
 @media only screen and (min-width: 67.5em) {
   /* line 9, ../scss/pages/_index.scss */
-  #index {
+  #home {
     background-color: yellow;
   }
   /* line 129, ../scss/pages/_index.scss */
-  #index .featuredSpeakers h2 {
+  #home .featuredSpeakers h2 {
     width: 100%;
     padding: 0 15px;
     float: left;
   }
   /* line 133, ../scss/pages/_index.scss */
-  #index .speaker {
+  #home .speaker {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
   /* line 137, ../scss/pages/_index.scss */
-  #index .featuredInfo {
+  #home .featuredInfo {
     width: 100%;
     padding: 0 15px;
     float: left;
   }
   /* line 141, ../scss/pages/_index.scss */
-  #index .introduction {
+  #home .introduction {
     width: 66.66667%;
     padding: 0 15px;
     float: left;
     font-size: 1.6em;
   }
   /* line 146, ../scss/pages/_index.scss */
-  #index .date, #index .location {
+  #home .date, #home .location {
     width: 16.66667%;
     padding: 0 15px;
     float: left;
   }
   /* line 150, ../scss/pages/_index.scss */
-  #index .track {
+  #home .track {
     width: 50%;
     padding: 0 15px;
     float: left;
@@ -768,19 +762,19 @@ Index Page (homepage)
 }
 @media only screen and (min-width: 80em) {
   /* line 9, ../scss/pages/_index.scss */
-  #index {
+  #home {
     background-color: blue;
     color: white;
   }
   /* line 161, ../scss/pages/_index.scss */
-  #index .feature {
+  #home .feature {
     width: 50%;
     padding: 0 15px;
     float: left;
     clear: none;
   }
   /* line 165, ../scss/pages/_index.scss */
-  #index .tracks {
+  #home .tracks {
     width: 50%;
     padding: 0 15px;
     float: left;
@@ -788,36 +782,36 @@ Index Page (homepage)
     font-size: 1.2em;
   }
   /* line 171, ../scss/pages/_index.scss */
-  #index .introduction {
+  #home .introduction {
     width: 100%;
     padding: 0;
     float: none;
   }
   /* line 50, ../scss/_mixins.scss */
-  #index .introduction:last-of-type {
+  #home .introduction:last-of-type {
     float: right;
   }
   /* line 175, ../scss/pages/_index.scss */
-  #index .date, #index .location {
+  #home .date, #home .location {
     width: 50%;
     padding: 0 15px;
     float: left;
     font-size: 1.3em;
   }
   /* line 180, ../scss/pages/_index.scss */
-  #index .track {
+  #home .track {
     width: 100%;
     padding: 0;
     float: none;
   }
   /* line 50, ../scss/_mixins.scss */
-  #index .track:last-of-type {
+  #home .track:last-of-type {
     float: right;
   }
 }
 @media only screen and (min-width: 90em) {
   /* line 9, ../scss/pages/_index.scss */
-  #index {
+  #home {
     background-color: orange;
   }
 }
@@ -848,11 +842,38 @@ Schedule Page
   #schedule {
     background-color: violet;
   }
+  /* line 31, ../scss/pages/_schedule.scss */
+  #schedule header {
+    background-color: blue;
+    font-size: 2.9em;
+    padding-bottom: 3%;
+    margin-bottom: 1%;
+  }
+  /* line 38, ../scss/pages/_schedule.scss */
+  #schedule .titlepage {
+    background-color: blue;
+    font-size: 2.9em;
+    padding-top: 3%;
+  }
 }
 @media only screen and (min-width: 40em) {
   /* line 11, ../scss/pages/_schedule.scss */
   #schedule {
     background-color: red;
+  }
+  /* line 53, ../scss/pages/_schedule.scss */
+  #schedule .opening {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 56, ../scss/pages/_schedule.scss */
+  #schedule .middle {
+    margin-top: 100%;
+  }
+  /* line 60, ../scss/pages/_schedule.scss */
+  #schedule .end {
+    margin-top: 100%;
   }
 }
 @media only screen and (min-width: 50em) {
@@ -860,11 +881,29 @@ Schedule Page
   #schedule {
     background-color: green;
   }
+  /* line 70, ../scss/pages/_schedule.scss */
+  #schedule .middle {
+    margin-top: 95%;
+  }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 11, ../scss/pages/_schedule.scss */
   #schedule {
     background-color: yellow;
+  }
+  /* line 81, ../scss/pages/_schedule.scss */
+  #schedule .opening {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 84, ../scss/pages/_schedule.scss */
+  #schedule .middle {
+    margin-top: 75%;
+  }
+  /* line 88, ../scss/pages/_schedule.scss */
+  #schedule .end {
+    margin-top: 75%;
   }
 }
 @media only screen and (min-width: 80em) {
@@ -886,12 +925,7 @@ Schedule Page
 Speakers Page 
 ========================== 
 */
-/* line 13, ../scss/pages/_speakers.scss */
-#speakers h4 {
-  background-color: #BEF700;
-  margin-bottom: 5%;
-}
-/* line 19, ../scss/pages/_speakers.scss */
+/* line 16, ../scss/pages/_speakers.scss */
 #speakers .s1 {
   float: left;
   padding-right: 2%;
@@ -905,17 +939,49 @@ Speakers Page
   #speakers {
     background-color: violet;
   }
+  /* line 31, ../scss/pages/_speakers.scss */
+  #speakers .speaker {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
 }
 @media only screen and (min-width: 40em) {
   /* line 9, ../scss/pages/_speakers.scss */
   #speakers {
     background-color: red;
   }
+  /* line 46, ../scss/pages/_speakers.scss */
+  #speakers header {
+    background-color: blue;
+    font-size: 2.2em;
+    padding-bottom: 3%;
+    margin-bottom: 1%;
+  }
+  /* line 53, ../scss/pages/_speakers.scss */
+  #speakers .titlepage {
+    background-color: blue;
+    font-size: 2.2em;
+    padding-top: 3%;
+  }
 }
 @media only screen and (min-width: 50em) {
   /* line 9, ../scss/pages/_speakers.scss */
   #speakers {
     background-color: green;
+  }
+  /* line 66, ../scss/pages/_speakers.scss */
+  #speakers header {
+    background-color: blue;
+    font-size: 2.9em;
+    padding-bottom: 3%;
+    margin-bottom: 1%;
+  }
+  /* line 73, ../scss/pages/_speakers.scss */
+  #speakers .titlepage {
+    background-color: blue;
+    font-size: 2.9em;
+    padding-top: 3%;
   }
 }
 @media only screen and (min-width: 67.5em) {
@@ -968,17 +1034,56 @@ About Page
   #about {
     background-color: red;
   }
+  /* line 38, ../scss/pages/_about.scss */
+  #about header {
+    background-color: blue;
+    font-size: 2.9em;
+    padding-bottom: 3%;
+    margin-bottom: 1%;
+  }
+  /* line 45, ../scss/pages/_about.scss */
+  #about .titlepage {
+    background-color: blue;
+    font-size: 2.9em;
+    padding-top: 3%;
+  }
 }
 @media only screen and (min-width: 50em) {
   /* line 9, ../scss/pages/_about.scss */
   #about {
     background-color: green;
   }
+  /* line 58, ../scss/pages/_about.scss */
+  #about header {
+    background-color: yellow;
+    font-size: 2.9em;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+  }
+  /* line 64, ../scss/pages/_about.scss */
+  #about .titlepage {
+    background-color: yellow;
+    font-size: 2.9em;
+    padding-bottom: 1%;
+  }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 9, ../scss/pages/_about.scss */
   #about {
     background-color: yellow;
+  }
+  /* line 77, ../scss/pages/_about.scss */
+  #about header {
+    background-color: green;
+    font-size: 2.9em;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+  }
+  /* line 83, ../scss/pages/_about.scss */
+  #about .titlepage {
+    background-color: green;
+    font-size: 2.9em;
+    padding-bottom: 1%;
   }
 }
 @media only screen and (min-width: 80em) {

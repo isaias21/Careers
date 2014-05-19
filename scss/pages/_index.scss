@@ -6,7 +6,7 @@ Index Page (homepage)
 
 
 //layout
-#index{
+#home{
 
 	// default layout  =============================================
 header{
@@ -27,7 +27,9 @@ header{
   padding-top: 6%;
   padding-bottom: 2%;
 }
-
+.box{
+	margin-bottom:2%;
+}
 
 
 	.featuredSpeakers{
@@ -46,16 +48,16 @@ header{
 	}
 
 	.speaker{
-		@include col(1,2);
+		@include col(1,1);
 	}
 
 	.date{
-		@include col(5,12);
+		@include col(1,1);
 		font-size: 1.2em;
 	}
 
 	.location{
-		@include col(7,12);
+		@include col(1,1);
 	}
 
 	.track{
@@ -83,12 +85,10 @@ header{
 		//	@include col(2,3);
 		}
 		.speaker img{
-			width:50%;
-			float:right;
+			
 		}
 		.speaker h3{
-			width:50%;
-			float: left;
+			
 		}
 		.speaker{
 			@include pie-clearfix();
